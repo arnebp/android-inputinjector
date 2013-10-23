@@ -19,4 +19,4 @@ Using InputManager for injection requires setting permission *android.permission
 
 Using this permission may require altering *Lint Error Checking* in order to be able to compile. In Eclipse this is done by going to *Window->Preferences->Android->Lint Error Checking* and then finding *ProtectedPermissions* and setting severity to something else than *error*.
 
-NOTE: Beside In order to inject events to other apps using InputManager, your apk must be signed with system level certificate.
+**NOTE**: In order to inject events to other apps using InputManager, your apk must be signed with system level certificate.
