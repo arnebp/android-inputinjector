@@ -15,7 +15,7 @@ No special permission needs to be set.
 As of API level 16 we have access to the InputManager class. We use this as the basis for the input injection.
 
 ####Permission
-Using InputManager for injection requires setting *permission android.permission.INJECT_EVENTS* in your manifest. 
+Using InputManager for injection requires setting permission *android.permission.INJECT_EVENTS* in your manifest. 
 
 Using this permission may require altering *Lint Error Checking* in order to be able to compile. In Eclipse this is done by going to *Window->Preferences->Android->Lint Error Checking* and then finding *ProtectedPermissions* and setting severity to something else than *error*.
 
